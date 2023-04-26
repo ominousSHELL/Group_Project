@@ -1,0 +1,115 @@
+#fake{
+	font: 1.5%;
+}
+/* Header */
+body{
+	color: white;
+}
+#header{
+	font-size: 50px;
+	text-align: center;
+	margin-top:13%;
+}
+/**Labels**/
+.stdno{
+	position: fixed;
+	top: 30.5%;
+	left: 1.5%;
+	font-size: 1.6rem;
+}
+.ienabler{
+	position: fixed;
+	top: 36.5%;
+	left:1.5%;
+	font-size: 1.6rem;
+}
+.pass{
+	position: fixed;
+	top: 42.7%;
+	left:1.5%;
+	font-size: 1.6rem;
+	
+}
+.cpass{
+	position: fixed;
+	top: 49%;
+	left:1.5%;
+	font-size: 1.6rem;
+}
+
+#layout {
+	border:2px solid white;
+	border-radius: 20px;
+	padding-top:29%;
+	width: 100%;
+	position: fixed;
+	top: 11%;
+	left: 0px;
+	height:55%;
+}
+/* Input fields */
+.stdnof{
+	padding-left: 2%;
+	margin: 5.5% 5% 2% 23.5%;
+	font-size: 1.6rem;
+	border-radius: 10px;
+	width:46%;
+	height:7.3%
+
+}
+.passf{
+	padding-left: 2%;
+	margin: 2.9% 0 3% 23.5%;
+	font-size: 1.6rem;
+	border-radius: 10px;
+	width:46%;
+	height:7.3%
+}
+.pin{
+	padding-left: 2%;
+	padding-right: 3%;
+	margin: 4% 0 3% 23.5%;
+	font-size: 30px;
+	border-radius: 10px;
+	width:14%;
+	height:7.3%
+
+}
+/*Buttons*/
+.sbutton {
+	margin: 5% 0 0 35%;		
+	padding: 0 11.5% 2% 1%;
+	font-size: 30px;
+	color: white;
+	border: 3px solid white;
+	width: 22%;
+	height:8%;
+}
+.rbutton {
+	margin: 5% 0 0 33.5%;		
+	padding: 0 11.5% 2% 1%;
+	font-size: 30px;
+	color: white;
+	border: 3px solid white;
+	width: 25%;
+	height:8%;
+}
+/*Alert box*/
+.box {
+	font-variant: bold;
+	font-size: 25px;
+	border: 2px solid white;
+	padding: 13px;
+	width: 38%;
+	height: 6%;
+	visibility: hidden;
+	position:fixed;
+	left: 28%;
+	top: 15%;
+	border-radius: 6px;
+}
+.link{
+	text-align: center;
+	margin-top:8%;
+	font-size: 1.6rem;
+}

@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://localhost:8000/bootstrap-css/bootstrap.min.css">
+		<link rel='stylesheet' href='http://localhost:8000/style.css'>
+        	<script src="bootstrap-js/bootstrap.bundle.min.js"></script>
+        	<script src="script.js"></script>
+	</head>
+	<body>
+		<h1 id='header'>Setup your student email</h1>
+		<!--login --!>
+		<div id='layout'>
+			<!--Null checks-->
+			<div id='stdno_box'class='box'>
+			Enter your student number!!
+			e.g. 223053827
+			</div>
+			<div id='ienabler_box'class='box'>
+			Enter your ienabler pin!!
+			e.g. 909090
+			</div>
+			<div id='pass_box'class='box'>
+			Enter a valid password!!
+			e.g. password123
+			</div>
+			<div id='cpass_box'class='box'>
+			Confirm your password!!
+			e.g. password123
+			</div>
+			<!--Regex--!>
+			<div id='stdnoR_box'class='box'>
+			Student number should only contain digits!!
+			</div>
+			<div id='pinR_box'class='box'>
+			Pin should contain only digits!!
+			</div>
+			<!--Password--!>
+			<div id='passN_box'class='box'>
+			Password too short!!
+			Password should be atleast 7 characters!!
+			</div>
+			<div id='passR_box'class='box'>
+			Passwords don't match!!
+			</div>
+
+			<!--Success--!>
+			<div id='success_box'class='box'>
+			Password successfully set!!
+			</div>
+
+
+
+			<!--Input--!>
+                        <p class='stdno'>Student number</p>
+			<input id='stdno' onkeyup='limitStdno();' class='stdnof' type='text'><br>
+			<p class='ienabler'>Ienabler Pin</p>
+			<input id='ienablerPin' onkeyup='limitPin();'class='pin' type='password'><br>
+                        <p class='pass'>Password</p>
+			<input id='pass' class='passf' type='password'><br>
+                        <p class='cpass'>Confirm Password</p>
+                        <input id='cpass' class='passf' type='password'>
+                        <input id='button' class='button' type='submit' value='Set password' onclick="Validate();">
+			<p class='link'>Already have a password? Click <a href="http://localhost:8000/update.html">here</a> to change password</p>
+	</body>
+</html>
